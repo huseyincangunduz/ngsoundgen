@@ -1,0 +1,10 @@
+.note {
+  display: inline-block;
+  height: 300px;
+  background-color: white;
+  border-color: 1px;
+  &[key$="b"] {
+    background-color: black;
+    color: white;
+  }
+}
